@@ -7,4 +7,8 @@ Mouse.prototype.eat = function() {
 	this.isDead = true;
 }
 
+Mouse.prototype.sleep = function() {
+	console.log("sleeping");
+};
+
 module.exports = Mouse;
